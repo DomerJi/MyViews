@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bluetooth.jsp.com.myviews">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.SmartisanTimeActivity" />
+        <activity android:name=".ui.ClockActivity" />
+        <activity android:name=".ui.RadarActivity" />
+        <activity android:name=".ui.FaceActivity" />
+        <activity android:name=".ui.HeartBezierActivity" />
+        <activity android:name=".ui.QQRedDotActivity" />
+        <activity android:name=".ui.RotateViewActivity" />
+        <activity android:name=".ui.SearchViewActivity"></activity>
+    </application>
+
+</manifest>
